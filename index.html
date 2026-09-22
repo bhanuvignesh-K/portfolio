@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <div class="searchwrap">
+    <div class="searchbar" id="searchbar">
+      <span id="searchtext">who is Your Name?</span>
+      <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="11" cy="11" r="7" stroke="#5f6368" stroke-width="2"/>
+        <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="#5f6368" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="suggest" id="suggest"></div>
+  </div>
+  <nav class="tabs">
+    <a href="#home" class="tab" data-tab="home">All</a>
+    <a href="#projects" class="tab" data-tab="projects">Projects</a>
+    <a href="#resume" class="tab" data-tab="resume">Resume</a>
+    <a href="#" class="tab" id="contact-link">Contact</a>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<footer class="sitefoot">
+  <span id="footname">K.Bhanu Vignesh</span>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
